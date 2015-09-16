@@ -1,6 +1,10 @@
 package es.ceracloud.gwt.StockWatcher.client;
 
-public class StockPrice {
+import java.io.Serializable;
+
+public class StockPrice implements Serializable {
+	
+	private static final long serialVersionUID = -4498015573869465523L;
 	
 	private String symbol;
 	private double price;
