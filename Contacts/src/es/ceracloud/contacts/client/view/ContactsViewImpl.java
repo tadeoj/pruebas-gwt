@@ -72,7 +72,6 @@ public class ContactsViewImpl<T> extends Composite implements ContactsView<T> {
 				columnDefinitions.get(j).render(t, sb);
 				cell.setInnerHTML(sb.toString());
 
-				// TODO: Really total hack! There's gotta be a better way...
 				Element child = cell.getFirstChildElement();
 				if (child != null) {
 					Event.sinkEvents(child, Event.ONFOCUS | Event.ONBLUR);
