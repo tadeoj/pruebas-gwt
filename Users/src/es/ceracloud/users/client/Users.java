@@ -7,8 +7,6 @@ import com.google.web.bindery.event.shared.SimpleEventBus;
 import com.google.web.bindery.requestfactory.shared.Receiver;
 import com.google.web.bindery.requestfactory.shared.Request;
 
-import es.ceracloud.users.client.UserRequestFactory.UserRequestContext;
-
 public class Users implements EntryPoint {
 
 	private UserRequestFactory requestFactory;
