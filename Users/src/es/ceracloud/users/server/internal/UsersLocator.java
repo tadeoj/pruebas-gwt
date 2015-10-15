@@ -35,7 +35,7 @@ public class UsersLocator extends Locator<User, Long> {
 
 	@Override
 	public Object getVersion(User domainObject) {
-		return null;
+		return 0;
 	}
 
 }

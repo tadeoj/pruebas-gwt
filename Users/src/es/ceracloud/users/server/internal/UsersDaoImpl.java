@@ -7,13 +7,13 @@ public class UsersDaoImpl implements UsersDao {
 
 	@Override
 	public User findByID(Long id) {
+		User user = new User();
 		if (id == 1) {
-			User user = new User();
 			user.setId((long) 1);
 			user.setName("Tadeo");
 			user.setEmail("tadeo.julian@gmail.com");
 		}
-		return null;
+		return user;
 	}
 
 	@Override

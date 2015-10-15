@@ -1,6 +1,10 @@
 package es.ceracloud.users.server.domain;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
+
+	private static final long serialVersionUID = -1237298319599811388L;
 
 	private Long id;
 	private String name;
